@@ -18,6 +18,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFC300;
+}
+
 /* Header */
 header {
     background-color: #000080;
