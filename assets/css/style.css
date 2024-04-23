@@ -48,6 +48,13 @@ main {
     background-color: aquamarine;
 }
 
+.hero {
+    height: 1000px;
+    width: 100%;
+    background: url("../images/hero.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
 /* Footer content*/
 footer {
     background-color: #000080;
