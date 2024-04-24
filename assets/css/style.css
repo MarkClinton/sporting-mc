@@ -23,20 +23,24 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #FFC300;
-    margin: 20px;
+    margin: 10px;
 }
 
 /* Header */
 header {
     background-color: #000080;
     padding: 0 1rem;
-    position: sticky;
+    position: fixed;
     z-index: 10;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+}
+
+header a{
+    text-decoration: none;
 }
 
 /* Main content */
@@ -49,7 +53,7 @@ main {
 }
 
 .hero {
-    height: 1000px;
+    height: 90vh;
     width: 100%;
     background: url("../images/hero.jpg") no-repeat center center/cover;
     position: relative;
