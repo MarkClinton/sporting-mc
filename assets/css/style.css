@@ -25,6 +25,23 @@ h1, h2, h3 {
     font-weight: 500;
 }
 
+p{
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 100;
+    font-size: 16;
+    margin-bottom: 10px;
+}
+
+.blue-header{
+    background-color: #000080;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
 /* Header */
 header {
     background-color: #000080;
@@ -48,6 +65,7 @@ header a{
 }
 
 .menu{
+    padding-top: 15px;
     list-style: none;
     color: #FFC300;
 }
@@ -72,6 +90,10 @@ nav{
     background: rgba(0, 0, 128, 0.75);
 }
 
+nav a:hover{
+    font-weight: 600;
+}
+
 #nav-toggle{
     display: none;
 }
@@ -91,14 +113,41 @@ main {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .hero {
-    height: 90vh;
+    height: 70vh;
     width: 100%;
     background: url("../images/hero.jpg") no-repeat center center/cover;
     position: relative;
+}
+
+.main-news{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.text-contain {
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.player-image{
+    background: url("../images/player.webp") no-repeat center center/cover;
+    height: 300px;
+    width: 70%;
+    margin: 5px auto;
+}
+
+.main-video{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.player-week{
+
 }
 
 /* Footer content*/
@@ -134,4 +183,8 @@ footer {
 
 /* Larger devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 1200px) {   
+    .main-text {
+        display: flex;
+        flex-direction: row;
+    }
 }
