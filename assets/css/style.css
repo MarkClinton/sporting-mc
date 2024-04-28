@@ -117,7 +117,7 @@ main {
 }
 
 .hero {
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     background: url("../images/hero.jpg") no-repeat center center/cover;
     position: relative;
@@ -125,7 +125,7 @@ main {
 
 .updates{
     width: 90%;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 .text-contain {
@@ -152,9 +152,23 @@ main {
 }
 
 .main-article-image{
-    background: url("../images/stadium2.jpg") no-repeat center center/cover;
-    height: 400px;
+    background: url("../images/scouts.jpg") no-repeat center center/cover;
+    height: 70vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.article-overlay{
+    width: 80%;
+    align-self: center;
+    margin-left: 15px;
+}
+
+.transparent-white-background{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
 }
 
 /* Footer content*/
@@ -189,6 +203,13 @@ footer {
         margin: 0 auto;
     }
 
+    .article-overlay{
+        width: 50%;
+    }
+    .main-article-image{
+        justify-content: flex-start;
+    }
+
 }
 
 /* Larger devices (laptops and desktops, 992px and up) */
@@ -212,5 +233,10 @@ footer {
 
     .updates-video{
         width: 40%;
+    }
+
+    .article-overlay{
+        width: 50%;
+        margin-left: 25px;
     }
 }
