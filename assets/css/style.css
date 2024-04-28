@@ -21,17 +21,23 @@ body {
 h1, h2, h3 {
     font-family: 'Rubik', sans-serif;
     letter-spacing: 2px;
-    color: #FFC300;
     font-weight: 500;
 }
 
 p{
     font-family: 'Rubik', sans-serif;
     letter-spacing: 1px;
-    color: black;
     font-weight: 100;
     font-size: 16;
     margin-bottom: 10px;
+}
+
+.text-black{
+    color: black;
+}
+
+.text-yellow{
+    color: #FFC300;
 }
 
 .blue-header{
@@ -128,6 +134,12 @@ main {
     margin: 40px auto;
 }
 
+.banner{
+    background-color: #B3261E;
+    width: 100%;
+    text-align: center;
+}
+
 .text-contain {
     padding: 10px;
     width: 90%;
@@ -166,7 +178,8 @@ main {
 }
 
 .transparent-white-background{
-    background-color: rgba(255, 255, 255, 0.7);
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     border-radius: 0px 0px 10px 10px;
 }
