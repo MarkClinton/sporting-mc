@@ -254,6 +254,10 @@ footer {
     background-color: #000080;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 .social-networks {
     text-align: center;
     width: 30%;
