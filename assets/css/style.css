@@ -249,6 +249,13 @@ main {
     border-radius: 0px 0px 10px 10px;
 }
 
+.members {
+    background: url("../images/members.jpg") no-repeat center center/cover;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+
 /* Footer content*/
 footer {
     background-color: #000080;
