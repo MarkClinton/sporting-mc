@@ -54,11 +54,11 @@ p {
     border-radius: 10px 10px 0px 0px;
 }
 
-.bottom-margin{
+.bottom-margin {
     margin-bottom: 20px;
 }
 
-.article-border-bottom{
+.article-border-bottom {
     border-bottom: 2px solid #FFC300;
 }
 
@@ -100,7 +100,7 @@ header a {
     /* font-weight: 600; */
     /* Using text shadow on hover because using font-weight causes <ul> <li> elements to move */
     text-shadow: 0 0 1.25px #FFC300;
-    
+
 }
 
 nav {
@@ -152,11 +152,11 @@ main {
     margin: 40px auto;
 }
 
-.header-margin{
+.header-margin {
     margin-top: 100px;
 }
 
-.wide-image{
+.wide-image {
     width: 100%;
     height: 500px;
     display: block;
@@ -165,13 +165,13 @@ main {
     object-fit: cover;
 }
 
-.news-article-1{
+.news-article-1 {
     background: url("../images/player.jpg") no-repeat center center/cover;
     width: 100%;
     height: 200px;
 }
 
-.article-image-bg{
+.article-image-bg {
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 400px;
@@ -181,26 +181,26 @@ main {
     align-items: flex-end;
 }
 
-.article-image-1{
+.article-image-1 {
     background: url("../images/soccer_match_tackle.jpg") no-repeat center center/cover;
 }
 
-.article-image-2{
+.article-image-2 {
     background: url("../images/soccer_match_dribbling.jpg") no-repeat center center/cover;
 }
 
-.article-image-sizing{
+.article-image-sizing {
     width: 100%;
     height: 100%;
 }
 
-#middle-article{
+#middle-article {
     display: flex;
     flex-direction: column;
     align-content: space-around;
 }
 
-#middle-article-second{
+#middle-article-second {
     order: -1;
 }
 
@@ -256,7 +256,7 @@ footer {
 
 .social-networks {
     text-align: center;
-    width: 100%;
+    width: 30%;
     margin: 20px auto;
     display: flex;
     justify-content: space-evenly;
@@ -311,41 +311,41 @@ footer {
         border-bottom: 2px solid #606080;
     }
 
-    #bottom-article{
+    #bottom-article {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
 
-    .article-image-bg{
+    .article-image-bg {
         margin-bottom: 0px;
     }
 
-    .article-image-1{
+    .article-image-1 {
         width: 49%;
     }
 
-    .article-image-2{
+    .article-image-2 {
         width: 49%;
     }
 
-    #middle-article{
+    #middle-article {
         flex-wrap: wrap;
         justify-content: center;
         height: 500px;
     }
 
-    #middle-article-first{
+    #middle-article-first {
         width: 50%;
         flex-basis: 100%;
     }
 
-    #middle-article-second{
+    #middle-article-second {
         width: 40%;
         order: 0;
     }
 
-    #middle-article-third{
+    #middle-article-third {
         width: 40%;
     }
 }
@@ -372,7 +372,7 @@ footer {
         margin-left: 5%;
     }
 
-    #middle-article{
+    #middle-article {
         width: 80%;
     }
 }
