@@ -99,7 +99,12 @@ header a {
     border-bottom: 2px solid #606080;
     /* font-weight: 600; */
     /* Using text shadow on hover because using font-weight causes <ul> <li> elements to move */
-    text-shadow: 0 0 1.25px #FFC300;
+    /* text-shadow: 0 0 1.5px #FFC300; */
+    text-shadow:
+    -0.2px -0.2px 0 #FFC300,
+    0.2px -0.2px 0 #FFC300,
+    -0.2px 0.2px 0 #FFC300,
+    0.2px 0.2px 0 #FFC300;
 
 }
 
@@ -115,7 +120,12 @@ nav {
 nav a:hover {
     /* font-weight: 600; */
     /* Using text shadow on hover because using font-weight causes <ul> <li> elements to move */
-    text-shadow: 0 0 1.25px #FFC300;
+    /* text-shadow: 0 0 1.5px #FFC300; */
+    text-shadow:
+    -0.2px -0.2px 0 #FFC300,
+    0.2px -0.2px 0 #FFC300,
+    -0.2px 0.2px 0 #FFC300,
+    0.2px 0.2px 0 #FFC300;
 }
 
 #nav-toggle {
