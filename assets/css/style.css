@@ -34,6 +34,12 @@ p {
     margin-bottom: 10px;
 }
 
+span {
+    font-weight: bold;
+    color: #FFC300;
+    border-bottom: 2px solid #FFC300;
+  }
+
 .hidden {
     display: none;
 }
@@ -181,18 +187,18 @@ main {
     height: 200px;
 }
 
-.article-image-bg {
+.article-overlay-bg {
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
-    height: 400px;
+    height: 100%;
     margin: 0px auto;
-    margin-bottom: 80px;
     display: flex;
     align-items: flex-end;
 }
 
 .article-image-1 {
     background: url("../images/soccer_match_tackle.jpg") no-repeat center center/cover;
+    margin-bottom: 80px;
 }
 
 .article-image-2 {
@@ -201,7 +207,7 @@ main {
 
 .article-image-sizing {
     width: 100%;
-    height: 100%;
+    height: 400px;
 }
 
 #middle-article {
@@ -252,18 +258,67 @@ main {
     margin-left: 15px;
 }
 
-.transparent-white-background {
-    /* background-color: rgba(255, 255, 255, 0.7); */
+.transparent-black-background {
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
-    border-radius: 0px 0px 10px 10px;
 }
 
 .members {
     background: url("../images/members.jpg") no-repeat center center/cover;
-    background-size: cover;
     flex-grow: 1;
 }
+
+.members-contain{
+    width: 75%;
+    padding: 30px;
+    margin: 100px auto;
+    color: white;
+    text-align: center;
+}
+
+.form-text-input{
+    height: 50px;
+    width: 80%;
+    color: black;
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+::placeholder{
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+}
+
+.radio-buttons{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px auto;
+}
+
+.radio-buttons div{
+    margin-top: 20px;
+}
+
+.signup-button{
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: 500;
+    background: #000080;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
 
 
 /* Footer content*/
@@ -324,6 +379,15 @@ footer a {
         justify-content: flex-start;
     }
 
+    .form-text-input:hover{
+        border-color: #FFC300;
+    }
+
+    .signup-button:hover {
+        background: #0303d6;
+        text-decoration: none;
+      }
+
 }
 
 /* Larger devices (laptops and desktops, 992px and up) */
@@ -338,12 +402,9 @@ footer a {
         justify-content: space-evenly;
     }
 
-    .article-image-bg {
-        margin-bottom: 0px;
-    }
-
     .article-image-1 {
         width: 49%;
+        margin-bottom: 0px;
     }
 
     .article-image-2 {
@@ -368,6 +429,18 @@ footer a {
 
     #middle-article-third {
         width: 40%;
+    }
+
+    .members-contain{
+        width: 50%;   
+    }
+
+    .form-text-input{
+        width: 60%;
+    }
+
+    .radio-buttons{
+        width: 60%;
     }
 }
 

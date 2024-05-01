@@ -44,6 +44,31 @@
     <!-- Main -->
     <main>
         <section class="members">
+            <form action="https://formdump.codeinstitute.net" method="POST" id="signup-form" class="members-contain transparent-black-background">
+                
+                <h1 class="text-white">Nothing <span>Beats</span> Being There...</h1>
+                <br>
+                <h3>Sign up and become a member today</h3>
+                <input type="text" class="form-text-input" placeholder="First Name" name="first-name" id="first-name" required>
+                <br>
+                <input type="text" class="form-text-input" placeholder="Last Name" name="last-name" id="last-name" required>
+                <br>
+                <input type="email" class="form-text-input" placeholder="Email Address" name="email" id="email" required>
+                <div class="radio-buttons">
+                    <div>
+                        <input type="radio" name="membership_type" id="individual" value="individual" required checked>
+                        <label for="individual">Individual Membership</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="membership_type" id="family" value="family" required>
+                        <label for="family">Full Family Membership </label>
+                    </div>
+                </div>    
+                <button type="submit" class="signup-button">Lets Go!</button>
+            </form>
+            
+            
+
             
         </section>
     </main>
