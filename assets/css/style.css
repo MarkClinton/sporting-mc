@@ -38,7 +38,7 @@ span {
     font-weight: bold;
     color: #FFC300;
     border-bottom: 2px solid #FFC300;
-  }
+}
 
 .hidden {
     display: none;
@@ -107,10 +107,10 @@ header a {
     /* Using text shadow on hover because using font-weight causes <ul> <li> elements to move */
     /* text-shadow: 0 0 1.5px #FFC300; */
     text-shadow:
-    -0.2px -0.2px 0 #FFC300,
-    0.2px -0.2px 0 #FFC300,
-    -0.2px 0.2px 0 #FFC300,
-    0.2px 0.2px 0 #FFC300;
+        -0.2px -0.2px 0 #FFC300,
+        0.2px -0.2px 0 #FFC300,
+        -0.2px 0.2px 0 #FFC300,
+        0.2px 0.2px 0 #FFC300;
 
 }
 
@@ -128,10 +128,10 @@ nav a:hover {
     /* Using text shadow on hover because using font-weight causes <ul> <li> elements to move */
     /* text-shadow: 0 0 1.5px #FFC300; */
     text-shadow:
-    -0.2px -0.2px 0 #FFC300,
-    0.2px -0.2px 0 #FFC300,
-    -0.2px 0.2px 0 #FFC300,
-    0.2px 0.2px 0 #FFC300;
+        -0.2px -0.2px 0 #FFC300,
+        0.2px -0.2px 0 #FFC300,
+        -0.2px 0.2px 0 #FFC300,
+        0.2px 0.2px 0 #FFC300;
 }
 
 #nav-toggle {
@@ -268,7 +268,7 @@ main {
     flex-grow: 1;
 }
 
-.members-contain{
+.members-contain {
     width: 75%;
     padding: 30px;
     margin: 100px auto;
@@ -276,7 +276,7 @@ main {
     text-align: center;
 }
 
-.form-text-input{
+.form-text-input {
     height: 50px;
     width: 80%;
     color: black;
@@ -289,13 +289,13 @@ main {
     font-size: large;
 }
 
-::placeholder{
+::placeholder {
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     font-size: medium;
 }
 
-.radio-buttons{
+.radio-buttons {
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -303,11 +303,11 @@ main {
     margin: 0px auto;
 }
 
-.radio-buttons div{
+.radio-buttons div {
     margin-top: 20px;
 }
 
-.signup-button{
+.signup-button {
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
@@ -379,14 +379,14 @@ footer a {
         justify-content: flex-start;
     }
 
-    .form-text-input:hover{
+    .form-text-input:hover {
         border-color: #FFC300;
     }
 
     .signup-button:hover {
         background: #0303d6;
         text-decoration: none;
-      }
+    }
 
 }
 
@@ -431,15 +431,15 @@ footer a {
         width: 40%;
     }
 
-    .members-contain{
-        width: 50%;   
+    .members-contain {
+        width: 50%;
     }
 
-    .form-text-input{
+    .form-text-input {
         width: 60%;
     }
 
-    .radio-buttons{
+    .radio-buttons {
         width: 60%;
     }
 }
