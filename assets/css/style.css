@@ -269,7 +269,7 @@ main {
 }
 
 .members-contain {
-    width: 75%;
+    width: 65%;
     padding: 30px;
     margin: 100px auto;
     color: white;
@@ -433,10 +433,6 @@ footer a {
 
     .members-contain {
         width: 40%;
-    }
-
-    .radio-buttons {
-        width: 60%;
     }
 }
 
