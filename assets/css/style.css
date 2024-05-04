@@ -153,6 +153,7 @@ main {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
+    margin-top: 49px;
     /* background-color: aquamarine; */
 }
 
@@ -288,7 +289,7 @@ main {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
 }
-
+/* Container for both radio buttons */
 .radio-buttons {
     width: 80%;
     display: flex;
@@ -297,15 +298,18 @@ main {
     margin: 15px auto;
 }
 
+/* Gives both radio buttons space */
 .radio-buttons div {
     margin-top: 20px;
 }
 
+/* Remove the input[type="radio] from the radio buttons div in order to create our own styling */
 .radio-buttons input{
     visibility: hidden;
     position: absolute;
 }
 
+/* <i> element added to add custom button styling to that element */
 .radio-buttons i {
     display: inline-block;
     vertical-align: middle;
@@ -316,6 +320,7 @@ main {
     box-shadow: inset 0 0 0 10px #ffffff;
   }
 
+  /* Give button custom style when checked */
   .radio-buttons input:checked + i {
     box-shadow: inset 0 0 0 2px #ffffff;
     background: #FFC300;
