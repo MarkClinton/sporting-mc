@@ -257,6 +257,7 @@ main {
     width: 100%;
 }
 
+/* Form styling */
 .members {
     /* background: url("../images/members.jpg") no-repeat center center/cover; */
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/members.jpg") no-repeat center center/cover;
@@ -306,7 +307,6 @@ main {
 /* Remove the input[type="radio] from the radio buttons div in order to create our own styling */
 .radio-buttons input{
     visibility: hidden;
-    position: absolute;
 }
 
 /* <i> element added to add custom button styling to that element */
@@ -338,6 +338,18 @@ main {
     margin-top: 20px;
 }
 
+
+/* Fixtures and Results styling */
+
+table{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+tr{
+    height: 50px;
+}
 
 
 /* Footer content*/
@@ -483,5 +495,9 @@ footer a {
 
     .members-contain {
         width: 40%;
+    }
+
+    table{
+        width: 60%;
     }
 }
