@@ -339,8 +339,7 @@ main {
 }
 
 
-/* Fixtures and Results styling */
-
+/* Fixtures and Results table styling */
 table{
     width: 100%;
     margin: 0 auto;
@@ -349,7 +348,6 @@ table{
 
 tr{
     height: 50px;
-    border-bottom: 2px solid #414A4C;
 }
 
 
