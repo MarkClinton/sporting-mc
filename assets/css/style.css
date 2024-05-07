@@ -222,6 +222,7 @@ main {
 .banner {
     background-color: #B3261E;
     width: 100%;
+    padding: 10px;
     text-align: center;
 }
 
