@@ -270,7 +270,7 @@ main {
 }
 
 .members-contain {
-    width: 65%;
+    width: 100%;
     padding: 30px;
     margin: 100px auto;
     color: white;
@@ -469,7 +469,7 @@ footer a {
     }
 
     .members-contain {
-        width: 50%;
+        width: 60%;
     }
 }
 
