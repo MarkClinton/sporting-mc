@@ -41,6 +41,10 @@ span {
     border-bottom: 2px solid #FFC300;
 }
 
+a {
+    text-decoration: none; 
+  }
+
 .hidden {
     display: none;
 }
