@@ -361,10 +361,9 @@ footer a {
 
 .social-networks {
     text-align: center;
-    width: 30%;
     margin: 20px auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style-type: none;
 }
 
