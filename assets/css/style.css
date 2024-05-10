@@ -41,7 +41,15 @@ span {
 
 a {
     text-decoration: none; 
-  }
+}
+
+a.text-link:hover{
+    text-shadow:
+    -0.2px -0.2px 0 #ffc300,
+    0.2px -0.2px 0 #ffc300,
+    -0.2px 0.2px 0 #ffc300,
+    0.2px 0.2px 0 #ffc300;
+}
 
 .hidden {
     display: none;
@@ -108,10 +116,10 @@ header a {
 .active {
     border-bottom: 2px solid #606080;
     text-shadow:
-        -0.2px -0.2px 0 #FFC300,
-        0.2px -0.2px 0 #FFC300,
-        -0.2px 0.2px 0 #FFC300,
-        0.2px 0.2px 0 #FFC300;
+        -0.2px -0.2px 0 #ffc300,
+        0.2px -0.2px 0 #ffc300,
+        -0.2px 0.2px 0 #ffc300,
+        0.2px 0.2px 0 #ffc300;
 
 }
 
@@ -355,10 +363,6 @@ footer {
     background-color: #000080;
 }
 
-footer a {
-    text-decoration: none;
-}
-
 .social-networks {
     text-align: center;
     margin: 20px auto;
@@ -370,6 +374,17 @@ footer a {
 .social-networks i {
     font-size: 150%;
     color: #FFC300;
+}
+
+.social-networks i:hover {
+    font-size: 150%;
+    color: #000080;
+    text-shadow:
+    -1px -1px 0 #ffc300,
+    1px -1px 0 #ffc300,
+    -1px 1px 0 #ffc300,
+    1px 1px 0 #ffc300;
+    
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -420,9 +435,6 @@ footer a {
 
 /* Larger devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    .menu a:hover {
-        border-bottom: 2px solid #606080;
-    }
 
     .article-image-1 {
         width: 49%;
