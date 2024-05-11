@@ -265,6 +265,7 @@ main {
 .article-overlay {
     width: 80%;
     align-self: center;
+    margin: 30px 0 30px 0;
 }
 
 .transparent-black-background {
