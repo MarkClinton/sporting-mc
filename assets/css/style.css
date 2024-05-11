@@ -159,6 +159,7 @@ main {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 49px;
 }
 
@@ -171,6 +172,7 @@ main {
 
 .section-basic {
     width: 90%;
+    max-width: 1400px;
     margin: 40px auto;
 }
 
@@ -244,6 +246,14 @@ main {
     height: 450px;
 }
 
+.updates-player {
+    margin-bottom: 60px;
+}
+
+.updates-video {
+    margin-bottom: 30px;
+}
+
 .main-article-image {
     background: url("../images/football-pitch.jpg") no-repeat center center/cover;
     height: 50vh;
@@ -267,6 +277,7 @@ main {
 .members {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/members.jpg") no-repeat center center/cover;
     flex-grow: 1;
+    width: 100%;
 }
 
 .members-contain {
@@ -400,14 +411,19 @@ footer {
         display: none;
     }
 
+    .updates-basic {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
     .updates-player {
         width: 60%;
-        margin: 0 auto;
     }
 
     .updates-video {
         width: 60%;
-        margin: 0 auto;
     }
 
     .article-overlay {
@@ -478,7 +494,7 @@ footer {
     .updates-basic {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .updates-player {
