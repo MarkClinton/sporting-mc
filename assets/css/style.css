@@ -500,10 +500,12 @@ footer {
 
     .updates-player {
         width: 30%;
+        margin-bottom: 0;
     }
 
     .updates-video {
         width: 50%;
+        margin-bottom: 0;
     }
 
     .article-overlay {
