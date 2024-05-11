@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta tags for search engines-->
+    <meta name="description" content="Sporting M.C. is football club located in Portugal. Founded in 1908.">
+    <meta name="keywords" content="Sporting, M.C, Football, Soccer, Portugal">
+    <meta name="author" content="Mark Clinton">
+
+    <!-- Title -->
+    <title>Response</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <a href="index.html">
+            <h1 class="logo">
+                Sporting M.C.
+            </h1>
+        </a>
+        <input type="checkbox" name="nav-toggle" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+        </label>
+
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="news.html">News</a>
+                </li>
+                <li>
+                    <a href="fixtures_results.html">Fixtures & Results</a>
+                </li>
+                <li>
+                    <a href="members.html" class="active">Members</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <section class="members">
+            <form action="https://formdump.codeinstitute.net" method="POST" id="signup-form" class="members-contain">
+
+                <h2 class="text-white">
+                    Nothing <span>BEATS</span> Being There...
+                </h2>
+                <br>
+                <h3>
+                    Sign up and become a member today
+                </h3>
+                <input type="text" class="form-text-input" placeholder="First Name" name="first-name" id="first-name"
+                    required>
+
+                <input type="text" class="form-text-input" placeholder="Last Name" name="last-name" id="last-name"
+                    required>
+
+                <input type="email" class="form-text-input" placeholder="Email Address" name="email" id="email"
+                    required>
+
+                <div class="radio-buttons">
+                    <div>
+                        <p>
+                            <label for="individual">
+                                <input type="radio" name="membership_type" id="individual" value="individual" required
+                                    checked>
+                                <i></i> Individual Membership
+                            </label>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <label for="family">
+                                <input type="radio" name="membership_type" id="family" value="family" required>
+                                <i></i> Family Membership
+                            </label>
+                        </p>
+                    </div>
+                </div>
+                <button type="submit" class="signup-button">
+                    Lets Go!
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li>
+                <a href="index.html" class="text-yellow text-link">
+                    SPORTING M.C. 2024
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/5b3d4c03ab.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
