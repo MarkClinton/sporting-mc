@@ -372,19 +372,15 @@ footer {
 }
 
 .social-networks i {
-    font-size: 150%;
-    color: #FFC300;
+    font-size: 125%;
+    color: #ffc300;
 }
 
 .social-networks i:hover {
-    font-size: 150%;
-    color: #000080;
-    text-shadow:
-    -1px -1px 0 #ffc300,
-    1px -1px 0 #ffc300,
-    -1px 1px 0 #ffc300,
-    1px 1px 0 #ffc300;
-    
+    font-size: 125%;
+    color: #000080; 
+    box-shadow: inset 200px 0 0 0 #ffc300;
+    border-radius: 25%;
 }
 
 /* Media query: tablets and larger (768px and up) */
