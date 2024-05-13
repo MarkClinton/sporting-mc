@@ -239,10 +239,10 @@ main {
 
 .player-image {
     background-color: #ffc300;
-    background: url("../images/player-week.jpg") no-repeat center center/cover;
     height: 450px;
     width: 100%;
     margin: 0 auto;
+    object-fit: cover;
 }
 
 .video {
