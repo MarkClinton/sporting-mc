@@ -44,6 +44,7 @@ a {
 }
 
 a.text-link:hover{
+    border-bottom: 1px solid #ffc300;
     text-shadow:
     -0.2px -0.2px 0 #ffc300,
     0.2px -0.2px 0 #ffc300,
@@ -60,7 +61,7 @@ a.text-link:hover{
 }
 
 .text-yellow {
-    color: #FFC300;
+    color: #ffc300;
 }
 
 .blue-header {
