@@ -262,6 +262,7 @@ main {
     background-color: #ffc300;
     background: url("../images/football-pitch.jpg") no-repeat center center/cover;
     width: 100%;
+    min-height: 400px;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -440,7 +441,6 @@ footer {
 
     .main-article-image {
         justify-content: flex-start;
-        height: 50vh;
     }
 
     .form-text-input:hover {
@@ -523,6 +523,10 @@ footer {
 
     .members-contain {
         width: 40%;
+    }
+
+    .main-article-image{
+        height: 40vh;
     }
 
     table{
