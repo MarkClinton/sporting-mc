@@ -8,14 +8,11 @@ Live site: https://markclinton.github.io/sporting-mc/index.html
 * [About](#about) 
 * [Design](#design)
 * [Target Audience](#target-audience)
-* [Wireframes](#wireframes)
 * [Features](#features)
 * [Testing](#testing)
-* [Deployment](#deployment)
 * [Technologies Used](#technologies-used)
+* [Deployment](#deployment)
 * [Credits](#credits)
-* [Content and Images](#content-and-images)
-* [Helpful Links](#helpful-links)
 * [Issues](#issues)
 
 ## About
@@ -24,15 +21,22 @@ Sporting M.C. is a website for a fictional football club. The name "Sporting M.C
 The aim of the website is so supporters of the club can keep up to date with club news, view upcoming fixtures and results results of previous matches and allows you to sign up and become a member of the club. The fictional club Sporting M.C. take part in the Primeira Liga, Portugal's top flight division. 
 
 ## Design
-The website is intended to be colorful in its design and full of content related to the team. The two main colors of the site (#000080, #ffc300) provide a complementary color harmony as they directly oppose each other on the RGB color wheel. I also just happen to like both yellow and blue when used together.  
+The website is intended to be colorful in its design and full of content related to the team. 
 
-Because the team is based in Portugal and competes in the Primeira Liga, real teams such as Sporting CP, FC Porto appear on the Fixtures & Results page for a sense of realism. 
+### Colour Scheme 
+The two main colors of the site (#000080, #ffc300) provide a complementary color harmony as they directly oppose each other on the RGB color wheel. I also just happen to like both yellow and blue when used together.  
+
+### Imagery
+The hero image was chosen as a reflection of all the fans who support the club by showing a packed stadium. The background images were chosen to keep on theme of the site. Football centric imagery. Because the team is based in Portugal and competes in the Primeira Liga, real teams such as Sporting CP, FC Porto appear on the Fixtures & Results page for a sense of realism. 
+
+### Typography 
+Google font was used to pick 2 comnplimentary fonts. Roboto and Rubik are the fonts used. Rubik used for H elements. Roboto used for P elements.
+
+### Wireframes
+The site was initially designed using Balsamiq. [Link to the Wireframes PDF](documentation/wireframes/Portfolio%201%20Wireframes.pdf)
 
 ## Target Audience
 The intended audience for this site are football fans. More specifically fans of Sporting M.C. Visitors to the site will want to know whats happening with the club, latest news, latest results, upcoming fixtures. The intent is to have everything available to fans that they need to keep up to date with the club. 
-
-## Wireframes
-The site was initially designed using Balsamiq. [Link to the Wireframes PDF](documentation/wireframes/Portfolio%201%20Wireframes.pdf)
 
 ## Features
 
@@ -40,7 +44,7 @@ The site was initially designed using Balsamiq. [Link to the Wireframes PDF](doc
 
 - Fully responsive navigation bar design featured on all pages throughout the site. Allows users to eaily navigate throughout the site regardless of screen size.
 
-  <details><summary>Navbar Gif</summary>
+  <details><summary>Navbar</summary>
 
   <p align="center"><img src="documentation/site_images/navbar.gif" alt="drawing" width="600"/></p>
 
@@ -50,7 +54,7 @@ The site was initially designed using Balsamiq. [Link to the Wireframes PDF](doc
 
 - The News page is fully responsive allowing the user to comfortably read articles regardless of the device they are using. 
 
-  <details><summary>News Gif</summary>
+  <details><summary>News</summary>
 
   <p align="center"><img src="documentation/site_images/news.gif" alt="drawing" width="600"/></p>
 
@@ -62,26 +66,30 @@ The site was initially designed using Balsamiq. [Link to the Wireframes PDF](doc
 - Only accepts valid emails.
 - Includes fields for First Name, Last Name, Email and a choice of Individula or Family Membership.
 
-  <details><summary>Members Gif</summary>
+  <details><summary>Members</summary>
 
   <p align="center"><img src="documentation/site_images/members_form.gif" alt="drawing" width="600"/></p>
 
   </details>
 
-# Testing
+## Testing
 
-## Screen Size Testing
+### Screen Size Testing
 To test the responsiveness of my website across all screen sizes I mainly used the Developer Tools to mainly test this. I also used Responsive Viewer to get an overview of my site on several screens at once to help spot any mistakes. 
 
 ![Multi screen image](documentation/site_images/Responsove_screens.png)
 
-## Validator Testing
+### Validator Testing
 - HTML: using the [W3 Validator](https://validator.w3.org/) no errors were found.
 - CSS: Using the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) no errors were found. 
 
 On testing my HTML using the W3 Validator I received the following warning "Consider using the h1 element as a top-level heading only" when using a H1 element in each of my sections. To fix this warning I changed my H1's to H2's instead. 
 
-## Feature Testing 
+For both index.html and news.html I get the following warning:
+>Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+
+
+### Feature Testing 
 
 |  Feature |  Action | Effect |
 |---|---|---|
@@ -97,11 +105,15 @@ On testing my HTML using the W3 Validator I received the following warning "Cons
 |Footer Link|Test Footer link|Footer link directs back the Home page|
 |2024 Season Membership Link|Test 2024 Season Membership link|Link directs to the Members page|
 
-## Deployment
-
 ## Technologies Used
 
+## Deployment
+
+
+
 ## Credits
+
+### Resources
 
 - [Unsplash](https://unsplash.com/) for free to use images. 
 - [Favicon Generator. For real.](https://realfavicongenerator.net/) to generate free favicons.
@@ -117,14 +129,14 @@ On testing my HTML using the W3 Validator I received the following warning "Cons
 - [EZGif](https://ezgif.com/maker) for creating gifs for the ReadMe
 
 
-## Content and Images
+### Content and Images
 
 - [Football Web Pages](https://www.footballwebpages.co.uk/portuguese-primeira-liga/teams) for images of team crests in the Portugese League.
 - [FC Vizela](https://fcvizela.pt/) for player headshots. 
 - [FC Porto](https://www.fcporto.pt/en/news) for inspiration on football news articles.
 - [Premier League](https://www.premierleague.com/matchweek/12305/blog) for inspiration on design, layout and content. 
 
-## Helpful Links
+### Helpful Links
 
 - [Stack Overflow Post on Flexbox](https://stackoverflow.com/questions/39644585/using-flex-order-property-to-re-arrange-items-for-desktop-and-mobile-views): This Stack Overflow article helped me with fixing my flexbox issue for my middle article positioning. The intent was to have the article viewable like the one above it when on mobile but when the screen was for desktop that the image be on the left and the article header and content be contained on the right. [Link to code](https://github.com/MarkClinton/sporting-mc/blob/e5fe8238415a538ee9f5f4d5991509932f0bfa3a/news.html#L84).
 - [Stack Overflow Post on Text outline](https://stackoverflow.com/questions/11323813/how-to-outline-text-in-html-css): Because one of my nav items was larger than the others I couldnt assign it an accurate width without messing up the rest of the nav spacing. This would cause a slight movement if I used font-bold on hover. Instead, I used text shadow to acheive some sort of bold text. 
