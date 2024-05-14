@@ -166,8 +166,8 @@ To test the responsiveness of my website across all screen sizes I mainly used t
   - [Stack Overflow Post on Text outline](https://stackoverflow.com/questions/11323813/how-to-outline-text-in-html-css): Because one of my nav items was larger than the others I couldnt assign it an accurate width without messing up the rest of the nav spacing. This would cause a slight movement if I used font-bold on hover. Instead, I used text shadow to acheive some sort of bold text. 
   - [Stack Overflow Post on styling Radio Buttons](https://stackoverflow.com/questions/37069238/how-to-change-the-font-style-in-radio-button): I wanted a custom style for my radio buttons to fit the theme of the site. Using this Stack Overflow post I was able to do it. 
 
-  - ### Acknowledgments 
-    - Big thanks to my mentor Juliia for the help and support throughout this project. She shared some great knowledge and resources which were very valuable for understanding how different components work. 
+- ### Acknowledgments 
+  - Big thanks to my mentor Juliia for the help and support throughout this project. She shared some great knowledge and resources which were very valuable for understanding how different components work. 
 
 ## Issues
 - The GitHub repository contains a file called .DS_Store. This file is not needed and should have been added to my .gitignore file.
