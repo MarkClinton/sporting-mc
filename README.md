@@ -10,7 +10,7 @@ Live site: https://markclinton.github.io/sporting-mc/index.html
 * [Target Audience](#target-audience)
 * [Features](#features)
 * [Testing](#testing)
-* [Technologies Used](#technologies-used)
+* [Languages Used](#technologies-used)
 * [Deployment](#deployment)
 * [Credits](#credits)
 * [Issues](#issues)
@@ -81,7 +81,11 @@ To test the responsiveness of my website across all screen sizes I mainly used t
 
 ### Validator Testing
 - HTML: using the [W3 Validator](https://validator.w3.org/) no errors were found.
+
 - CSS: Using the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) no errors were found. 
+1 warning was highlighted for font imports. 
+Imported style sheets are not checked in direct input and file upload modes
+![validated css](documentation/site_images/css%20_validated.png)
 
 On testing my HTML using the W3 Validator I received the following warning "Consider using the h1 element as a top-level heading only" when using a H1 element in each of my sections. To fix this warning I changed my H1's to H2's instead. 
 
@@ -105,11 +109,26 @@ For both index.html and news.html I get the following warning:
 |Footer Link|Test Footer link|Footer link directs back the Home page|
 |2024 Season Membership Link|Test 2024 Season Membership link|Link directs to the Members page|
 
-## Technologies Used
+## Languages Used
+- HTML5
+- CSS3
+
 
 ## Deployment
 
+### Github Pages
+- In the repository, navigate to Settings > Pages.
+- From the Source dropdown choose "Deploy from a branch".
+- Choose "main" as the branch.
+- When the master branch is selected the it will initiate a build and deployment of the site.
+- Any changes pushed to the main branch will automatically be built and deployed once set up.
+- Link to live GitHub Page can be found [here](https://markclinton.github.io/sporting-mc/index.html)
 
+### Clone Repo
+- Navigate to the [Sporting M.C.](https://github.com/MarkClinton/sporting-mc) repository.
+- Click "Code" and choose the HTTPS tab.
+- Copy the URL.
+- Open a terminal window and paste "git clone https://github.com/MarkClinton/sporting-mc.git" to the directory you want.
 
 ## Credits
 
@@ -129,7 +148,7 @@ For both index.html and news.html I get the following warning:
 - [EZGif](https://ezgif.com/maker) for creating gifs for the ReadMe
 
 
-### Content and Images
+### Media
 
 - [Football Web Pages](https://www.footballwebpages.co.uk/portuguese-primeira-liga/teams) for images of team crests in the Portugese League.
 - [FC Vizela](https://fcvizela.pt/) for player headshots. 
