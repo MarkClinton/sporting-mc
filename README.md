@@ -4,6 +4,19 @@ Live site: https://markclinton.github.io/sporting-mc/index.html
 
 ![Main image](documentation/site_images/multi_screen_image.png)
 
+## Index – Table of Contents
+* [About](#about) 
+* [Design](#design)
+* [Target Audience](#target-audience)
+* [Wireframes](#wireframes)
+* [Features](#features)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Content and Images](#content-and-images)
+* [Helpful Links](#helpful-links)
+* [Issues](#issues)
+
 ## About
 Sporting M.C. is a website for a fictional football club. The name "Sporting M.C." is a mix of the term "Sporting" which refers to a sporting club and is widely used in naming teams in the Portugese League. As football grows in the USA some clubs are adopting the moniker "Sporting". M.C. are my initials. Putting them both together gave birth to the idea "Sporting M.C."
 
@@ -19,18 +32,6 @@ The intended audience for this site are football fans. More specifically fans of
 
 ## Wireframes
 The site was initially designed using Balsamiq. [Link to the Wireframes PDF](documentation/wireframes/Portfolio%201%20Wireframes.pdf)
-
-
-## Screen Size Testing
-To test the responsiveness of my website across all screen sizes I mainly used the Developer Tools to mainly test this. I also used Responsive Viewer to get an overview of my site on several screens at once to help spot any mistakes. 
-
-![Multi screen image](documentation/site_images/Responsove_screens.png)
-
-## Validator Testing
-- HTML: using the [W3 Validator](https://validator.w3.org/) no errors were found.
-- CSS: Using the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) no errors were found. 
-
-On testing my HTML using the W3 Validator I received the following warning "Consider using the h1 element as a top-level heading only" when using a H1 element in each of my sections. To fix this warning I changed my H1's to H2's instead. 
 
 ## Features
 
@@ -66,6 +67,20 @@ On testing my HTML using the W3 Validator I received the following warning "Cons
 
   </details>
 
+# Testing
+<hr>
+
+## Screen Size Testing
+To test the responsiveness of my website across all screen sizes I mainly used the Developer Tools to mainly test this. I also used Responsive Viewer to get an overview of my site on several screens at once to help spot any mistakes. 
+
+![Multi screen image](documentation/site_images/Responsove_screens.png)
+
+## Validator Testing
+- HTML: using the [W3 Validator](https://validator.w3.org/) no errors were found.
+- CSS: Using the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) no errors were found. 
+
+On testing my HTML using the W3 Validator I received the following warning "Consider using the h1 element as a top-level heading only" when using a H1 element in each of my sections. To fix this warning I changed my H1's to H2's instead. 
+
 ## Feature Testing 
 
 |  Feature |  Action | Effect |
@@ -82,6 +97,7 @@ On testing my HTML using the W3 Validator I received the following warning "Cons
 |Footer Link|Test Footer link|Footer link directs back the Home page|
 |2024 Season Membership Link|Test 2024 Season Membership link|Link directs to the Members page|
 
+## Deployment
 
 
 ## Credits
@@ -107,12 +123,12 @@ On testing my HTML using the W3 Validator I received the following warning "Cons
 - [FC Porto](https://www.fcporto.pt/en/news) for inspiration on football news articles.
 - [Premier League](https://www.premierleague.com/matchweek/12305/blog) for inspiration on design, layout and content. 
 
-## Helpful Links Used
+## Helpful Links
 
 - [Stack Overflow Post on Flexbox](https://stackoverflow.com/questions/39644585/using-flex-order-property-to-re-arrange-items-for-desktop-and-mobile-views): This Stack Overflow article helped me with fixing my flexbox issue for my middle article positioning. The intent was to have the article viewable like the one above it when on mobile but when the screen was for desktop that the image be on the left and the article header and content be contained on the right. [Link to code](https://github.com/MarkClinton/sporting-mc/blob/e5fe8238415a538ee9f5f4d5991509932f0bfa3a/news.html#L84).
 - [Stack Overflow Post on Text outline](https://stackoverflow.com/questions/11323813/how-to-outline-text-in-html-css): Because one of my nav items was larger than the others I couldnt assign it an accurate width without messing up the rest of the nav spacing. This would cause a slight movement if I used font-bold on hover. Instead, I used text shadow to acheive some sort of bold text. 
 - [Stack Overflow Post on styling Radio Buttons](https://stackoverflow.com/questions/37069238/how-to-change-the-font-style-in-radio-button): I wanted a custom style for my radio buttons to fit the theme of the site. Using this Stack Overflow post I was able to do it. 
 
 
-## Lessons Learnt
+## Issues
 - The GitHub repository contains a file called .DS_Store. This file is not needed and should have been added to my .gitignore file.
