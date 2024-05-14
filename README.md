@@ -80,17 +80,15 @@ To test the responsiveness of my website across all screen sizes I mainly used t
 ![Multi screen image](documentation/site_images/Responsove_screens.png)
 
 - ### Validator Testing
-  - HTML: using the [W3 Validator](https://validator.w3.org/) no errors were found.
+  - HTML: using the [W3 Validator](https://validator.w3.org/) no errors were found for all pages.
 
+    ![validated html](documentation/site_images/html_validated.png)
   - CSS: Using the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) no errors were found. 
-1 warning was highlighted for font imports. 
-Imported style sheets are not checked in direct input and file upload modes
-![validated css](documentation/site_images/css%20_validated.png)
+    1 warning was highlighted for font imports. 
+    Imported style sheets are not checked in direct input and file upload modes
+    
+    ![validated css](documentation/site_images/css_validated.png)
 
-On testing my HTML using the W3 Validator I received the following warning "Consider using the h1 element as a top-level heading only" when using a H1 element in each of my sections. To fix this warning I changed my H1's to H2's instead. 
-
-For both index.html and news.html I get the following warning:
->Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
 
 
 - ### Feature Testing 
