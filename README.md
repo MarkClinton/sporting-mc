@@ -93,7 +93,7 @@ For both index.html and news.html I get the following warning:
 >Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
 
 
-### Feature Testing 
+- ### Feature Testing 
 
 |  Feature |  Action | Effect |
 |---|---|---|
