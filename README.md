@@ -12,6 +12,7 @@ Live site: https://markclinton.github.io/sporting-mc/index.html
 * [Features](#features)
 * [Testing](#testing)
 * [Deployment](#deployment)
+* [Technologies Used](#technologies-used)
 * [Credits](#credits)
 * [Content and Images](#content-and-images)
 * [Helpful Links](#helpful-links)
@@ -68,7 +69,6 @@ The site was initially designed using Balsamiq. [Link to the Wireframes PDF](doc
   </details>
 
 # Testing
-<hr>
 
 ## Screen Size Testing
 To test the responsiveness of my website across all screen sizes I mainly used the Developer Tools to mainly test this. I also used Responsive Viewer to get an overview of my site on several screens at once to help spot any mistakes. 
@@ -99,6 +99,7 @@ On testing my HTML using the W3 Validator I received the following warning "Cons
 
 ## Deployment
 
+## Technologies Used
 
 ## Credits
 
