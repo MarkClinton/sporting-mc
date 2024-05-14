@@ -44,21 +44,41 @@ The intended audience for this site are football fans. More specifically fans of
 
   - Fully responsive navigation bar design featured on all pages throughout the site. Allows users to eaily navigate throughout the site regardless of screen size.
 
-  <details><summary>Navbar</summary>
+    <details><summary>Navbar</summary>
 
-  <p align="center"><img src="documentation/site_images/navbar.gif" alt="drawing" width="600"/></p>
+    <p align="center"><img src="documentation/site_images/navbar.gif" alt="drawing" width="600"/></p>
 
-  </details>
+    </details>
+
+- ### Home Page
+
+  - The landing page contains the main hero image which clearly shows the intent of the site. It also includes some easily digestible media in the form of short, snappy articles and an embedded youtube video. 
+
+    <details><summary>Home</summary>
+
+    <p align="center"><img src="documentation/site_images/home.png" alt="drawing" width="600"/></p>
+
+    </details>
 
 - ### News
 
   - The News page is fully responsive allowing the user to comfortably read articles regardless of the device they are using. 
 
-  <details><summary>News</summary>
+    <details><summary>News</summary>
 
-  <p align="center"><img src="documentation/site_images/news.gif" alt="drawing" width="600"/></p>
+    <p align="center"><img src="documentation/site_images/news.gif" alt="drawing" width="600"/></p>
 
-  </details>
+    </details>
+
+- ### Fixtures & Results
+
+  - The fixtures and results page shows a detailed table in 2 sections. 1 for Upcoming Fixtures and 1 for Results. The table includes all the information needed to keep up to date with the club as well as images for each club.
+
+    <details><summary>Fixtures & Results</summary>
+
+    <p align="center"><img src="documentation/site_images/fixtures_results.png" alt="drawing" width="600"/></p>
+
+    </details>
 
 - ### Membership Form
 
@@ -66,11 +86,11 @@ The intended audience for this site are football fans. More specifically fans of
   - Only accepts valid emails.
   - Includes fields for First Name, Last Name, Email and a choice of Individula or Family Membership.
 
-  <details><summary>Members</summary>
+    <details><summary>Members</summary>
 
-  <p align="center"><img src="documentation/site_images/members_form.gif" alt="drawing" width="600"/></p>
+    <p align="center"><img src="documentation/site_images/members_form.gif" alt="drawing" width="600"/></p>
 
-  </details>
+    </details>
 
 ## Testing
 
