@@ -16,7 +16,7 @@ Live site: https://markclinton.github.io/sporting-mc/index.html
 * [Issues](#issues)
 
 ## About
-Sporting M.C. is a website for a fictional football club. The name "Sporting M.C." is a mix of the term "Sporting" which refers to a sporting club and is widely used in naming teams in the Portugese League. As football grows in the USA some clubs are adopting the moniker "Sporting". M.C. are my initials. Putting them both together gave birth to the idea "Sporting M.C."
+Sporting M.C. is a website for a fictional football club. The name "Sporting M.C." is a mix of the term "Sporting" which refers to a sporting club and is widely used in naming teams in the Portugese League. As football grows in the USA some clubs are adopting the moniker "Sporting". M.C. are my initials. Putting them both together gave birth to the idea "Sporting M.C.". Sporting M.C. uses the crest and logo of the portugese football team FC Vizela. 
 
 The aim of the website is so supporters of the club can keep up to date with club news, view upcoming fixtures and results results of previous matches and allows you to sign up and become a member of the club. The fictional club Sporting M.C. take part in the Primeira Liga, Portugal's top flight division. 
 
@@ -177,6 +177,7 @@ To test the responsiveness of my website across all screen sizes I mainly used t
   - [Unsplash](https://unsplash.com/) for free to use images.
   - [Football Web Pages](https://www.footballwebpages.co.uk/portuguese-primeira-liga/teams) for images of team crests in the Portugese League.
   - [FC Vizela](https://fcvizela.pt/) for player headshots. 
+  - [Logowik](https://logowik.com/fc-vizela-vector-logo-8490.html) for main image of football crest.
   - [FC Porto](https://www.fcporto.pt/en/news) for inspiration on football news articles.
   - [Premier League](https://www.premierleague.com/matchweek/12305/blog) for inspiration on design, layout and content. 
 
