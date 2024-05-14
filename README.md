@@ -81,13 +81,21 @@ To test the responsiveness of my website across all screen sizes I mainly used t
 
 - ### Validator Testing
   - HTML: using the [W3 Validator](https://validator.w3.org/) no errors were found for all pages.
+    
+    - [index.html](documentation/w3_validator_images/index_valid.png) 
+    - [news.html](documentation/w3_validator_images/news_valid.png) 
+    - [members.html](documentation/w3_validator_images/members_valid.png) 
+    - [fixtures_results.html](documentation/w3_validator_images/fixtures_results_valid.png) 
+    - [response.html](documentation/w3_validator_images/response_valid.png) 
 
-    ![validated html](documentation/site_images/html_validated.png)
+    ![validated html](documentation/w3_validator_images/html_validated.png)
+
   - CSS: Using the [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) no errors were found. 
     1 warning was highlighted for font imports. 
     Imported style sheets are not checked in direct input and file upload modes
-    
-    ![validated css](documentation/site_images/css_validated.png)
+    - [style.css](documentation/w3_validator_images/style_valid.png) 
+
+    ![validated css](documentation/w3_validator_images/css_validated.png)
 
 
 
