@@ -217,7 +217,9 @@ To test the responsiveness of my website across all screen sizes I mainly used t
   - Big thanks to my mentor Juliia for the help and support throughout this project. She shared some great knowledge and resources which were very valuable for understanding how different components work. 
 
 ## Bugs
-- The GitHub repository contains a file called .DS_Store. This file is not needed and should have been added to my .gitignore file.
+- The GitHub repository contained a file called .DS_Store during the development. This file should
+not have been commited to the repository. I manually deleted the file from the repo directly as it was
+not appearing locally. I then added it to my .gitignore file to stop future pushes of this file.
 - I wanted to implement Navbar links to be bold on hover. If I set the items to be bold on hover it would slightly move the items in the navbar. Due to the width of the "Fixtures & Results" nav item I couldnt find a width to satisfy all navbar items. This would lead to wasted space making the other navbar items look odd. In the end I used a text shadow to give the illusion of bold text when hovered. 
 - Pre planning my site. I created the initial wireframes for this website but should have included more detail. More detail in the actual div elements I planned to create. Without having these divs created in a wireframe it lead to wasted time back and forth debating on which styles looks good.
 - ReadMe. While the ReadMe wasnt an issue I only kept a running log in a seperate file on my desktop instead of creating the ReadMe as I went. I should have started with the ReadMe format and filled it in as each page was created. 
