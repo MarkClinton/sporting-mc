@@ -133,7 +133,7 @@ The intended audience for this site are football fans. More specifically fans of
 - ### Clone Repo
   - Navigate to the [Sporting M.C.](https://github.com/MarkClinton/sporting-mc) repository.
   - Click "Code" and choose the HTTPS tab.
-  - Copy the URL.
+  - Copy the URL. 
   - Open a terminal window and paste `git clone https://github.com/MarkClinton/sporting-mc.git` to the directory you want.
 
 ## Testing
