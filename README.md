@@ -93,6 +93,16 @@ The intended audience for this site are football fans. More specifically fans of
 
     </details>
 
+- ### Response
+
+  - On form submission it displays a page with a custom message thanking the user for becoming a member. 
+
+    <details><summary>Response</summary>
+
+    <p align="center"><img src="documentation/site_images/response.png" alt="drawing" width="600"/></p>
+
+    </details>
+
 ## Testing
 
 - ### Screen Size Testing
