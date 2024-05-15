@@ -327,6 +327,12 @@ main {
     background: rgba(0, 0, 0, 0.4);
 }
 
+.members-contain h2,
+p {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+
 .form-text-input {
     height: 50px;
     width: 80%;
