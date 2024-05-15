@@ -135,12 +135,14 @@ To test the responsiveness of my website across all screen sizes I mainly used t
 |  Feature |  Action | Effect |
 |---|---|---|
 |Logo|Click|Brings back to Home page|
+|Call to action button|Click|Navigates to the News page|
 |Navbar Links|Click on Home|Opens the Home page|
 ||Click on News|Opens the News page|
 ||Click on Fixtures & Results|Opens the Fixtures & Results page|
 ||Click on Members|Opens the Members page|
 |Members Page|Fill out the form and submit|The form is submitted and a Thank you message appears|
 ||Attempt to submit empty|Error pops up in field that's left empty|
+|Response Page|Click Homepage button|Navigates back to the home page|
 |Social Media Links|Test Youtube link|Youtube opens in a separate tab|
 ||Test Twitter(X) Link|Twitter(X) opens in a seperate tab|
 |Footer Link|Test Footer link|Footer link directs back the Home page|
@@ -181,6 +183,7 @@ To test the responsiveness of my website across all screen sizes I mainly used t
   - [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb/related?hl=en) for testing my site on all screen sizes.
   - [Balsamiq](https://balsamiq.com/?gad_source=1&gclid=CjwKCAjw9IayBhBJEiwAVuc3fqVfzQ-WmLrsaC-4HITwUoROC3SzPwvg7clfnKMbm35oxgybc0CbrhoCsC0QAvD_BwE) for creating wireframes of my project.
   - [EZGif](https://ezgif.com/maker) for creating gifs for the ReadMe
+  - [Cloud Convert](https://cloudconvert.com/) for converting images to .webp format
 
 
 - ### Media
