@@ -52,6 +52,7 @@ The intended audience for this site are football fans. More specifically fans of
 
 - ### Home Page
 
+  - The Hero section features the crest of the club and a call to action button which allows them to nivigate through teh site faster to see the content they want.
   - The landing page contains the main hero image which clearly shows the intent of the site. It also includes some easily digestible media in the form of short, snappy articles and an embedded youtube video. 
 
     <details><summary>Home</summary>
