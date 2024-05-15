@@ -169,7 +169,7 @@ main {
     min-height: 550px;
     width: 100%;
     background-color: #000080;
-    background: url("../images/hero.jpg") no-repeat center center/cover;
+    background: url("../images/hero.webp") no-repeat center center/cover;
     display: flex;
     justify-content: center;
 }
@@ -226,13 +226,13 @@ main {
 
 .article-image-1 {
     background-color: #808080;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/soccer-match-tackle.jpg") no-repeat center center/cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/soccer-match-tackle.webp") no-repeat center center/cover;
     margin-bottom: 80px;
 }
 
 .article-image-2 {
     background-color: #808080;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/soccer-match-dribbling.jpg") no-repeat center center/cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/soccer-match-dribbling.webp") no-repeat center center/cover;
 }
 
 .article-image-sizing {
@@ -287,7 +287,7 @@ main {
 
 .main-article-image {
     background-color: #ffc300;
-    background: url("../images/football-pitch.jpg") no-repeat center center/cover;
+    background: url("../images/football-pitch.webp") no-repeat center center/cover;
     width: 100%;
     min-height: 400px;
     padding: 10px;
@@ -309,7 +309,7 @@ main {
 
 /* Form styling */
 .members {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/members.jpg") no-repeat center center/cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/members.webp") no-repeat center center/cover;
     flex-grow: 1;
     width: 100%;
 }
