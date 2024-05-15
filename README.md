@@ -103,6 +103,39 @@ The intended audience for this site are football fans. More specifically fans of
 
     </details>
 
+## Technologies
+
+### Languages
+- HTML5
+- CSS3
+
+### Other Tools
+- [GitHub](https://github.com/)
+- [Git](https://git-scm.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [GoFullPage](https://gofullpage.com/) to take full page screenshots.
+- [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb/related?hl=en) for testing my site on all screen sizes.
+- [Balsamiq](https://balsamiq.com/?gad_source=1&gclid=CjwKCAjw9IayBhBJEiwAVuc3fqVfzQ-WmLrsaC-4HITwUoROC3SzPwvg7clfnKMbm35oxgybc0CbrhoCsC0QAvD_BwE) for creating wireframes of my project.
+- [fontawesome](https://fontawesome.com/icons) for providing free icons. 
+- [CSS3 Button Generator](https://css3buttongenerator.com/) for help on designing the look and feel for my form button. 
+
+
+## Deployment
+
+- ### Github Pages
+  - In the repository, navigate to Settings > Pages.
+  - From the Source dropdown choose "Deploy from a branch".
+  - Choose "main" as the branch.
+  - When the master branch is selected the it will initiate a build and deployment of the site.
+  - Any changes pushed to the main branch will automatically be built and deployed once set up.
+  - Link to live GitHub Page can be found [here](https://markclinton.github.io/sporting-mc/index.html)
+
+- ### Clone Repo
+  - Navigate to the [Sporting M.C.](https://github.com/MarkClinton/sporting-mc) repository.
+  - Click "Code" and choose the HTTPS tab.
+  - Copy the URL.
+  - Open a terminal window and paste `git clone https://github.com/MarkClinton/sporting-mc.git` to the directory you want.
+
 ## Testing
 
 - ### Screen Size Testing
@@ -128,9 +161,7 @@ To test the responsiveness of my website across all screen sizes I mainly used t
 
     ![validated css](documentation/w3_validator_images/css_validated.png)
 
-
-
-- ### Feature Testing 
+- ### Manual Testing 
 
 |  Feature |  Action | Effect |
 |---|---|---|
@@ -148,25 +179,11 @@ To test the responsiveness of my website across all screen sizes I mainly used t
 |Footer Link|Test Footer link|Footer link directs back the Home page|
 |2024 Season Membership Link|Test 2024 Season Membership link|Link directs to the Members page|
 
-## Languages Used
-- HTML5
-- CSS3
 
-## Deployment
+- ### Compatibility Testing
+  - Chrome Desktop Version 125.0.6422.41
+  - Safari Desktop Version 17.4.1 (19618.1.15.11.14)
 
-- ### Github Pages
-  - In the repository, navigate to Settings > Pages.
-  - From the Source dropdown choose "Deploy from a branch".
-  - Choose "main" as the branch.
-  - When the master branch is selected the it will initiate a build and deployment of the site.
-  - Any changes pushed to the main branch will automatically be built and deployed once set up.
-  - Link to live GitHub Page can be found [here](https://markclinton.github.io/sporting-mc/index.html)
-
-- ### Clone Repo
-  - Navigate to the [Sporting M.C.](https://github.com/MarkClinton/sporting-mc) repository.
-  - Click "Code" and choose the HTTPS tab.
-  - Copy the URL.
-  - Open a terminal window and paste "git clone https://github.com/MarkClinton/sporting-mc.git" to the directory you want.
 
 ## Credits
 
@@ -175,13 +192,8 @@ To test the responsiveness of my website across all screen sizes I mainly used t
   - [Favicon Generator. For real.](https://realfavicongenerator.net/) to generate free favicons.
   - [Google Fonts](https://fonts.google.com/) for a range of free fonts. 
   - [Stack Overflow](https://stackoverflow.com/) for help answering questions
-  - [fontawesome](https://fontawesome.com/icons) for providing free icons. 
-  - [CSS3 Button Generator](https://css3buttongenerator.com/) for help on designing the look and feel for my form button. 
   - [W3 Schools](https://www.w3schools.com/) for documentation and interactive help with html and css.
   - [HTML Color Codes](https://htmlcolorcodes.com/color-picker/) for choosing different shades and colors.
-  - [GoFullPage](https://gofullpage.com/) to take full page screenshots.
-  - [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb/related?hl=en) for testing my site on all screen sizes.
-  - [Balsamiq](https://balsamiq.com/?gad_source=1&gclid=CjwKCAjw9IayBhBJEiwAVuc3fqVfzQ-WmLrsaC-4HITwUoROC3SzPwvg7clfnKMbm35oxgybc0CbrhoCsC0QAvD_BwE) for creating wireframes of my project.
   - [EZGif](https://ezgif.com/maker) for creating gifs for the ReadMe
   - [Cloud Convert](https://cloudconvert.com/) for converting images to .webp format
 
@@ -204,7 +216,7 @@ To test the responsiveness of my website across all screen sizes I mainly used t
 - ### Acknowledgments 
   - Big thanks to my mentor Juliia for the help and support throughout this project. She shared some great knowledge and resources which were very valuable for understanding how different components work. 
 
-## Issues
+## Bugs
 - The GitHub repository contains a file called .DS_Store. This file is not needed and should have been added to my .gitignore file.
 - I wanted to implement Navbar links to be bold on hover. If I set the items to be bold on hover it would slightly move the items in the navbar. Due to the width of the "Fixtures & Results" nav item I couldnt find a width to satisfy all navbar items. This would lead to wasted space making the other navbar items look odd. In the end I used a text shadow to give the illusion of bold text when hovered. 
 - Pre planning my site. I created the initial wireframes for this website but should have included more detail. More detail in the actual div elements I planned to create. Without having these divs created in a wireframe it lead to wasted time back and forth debating on which styles looks good.

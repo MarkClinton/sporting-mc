@@ -327,8 +327,7 @@ main {
     background: rgba(0, 0, 0, 0.4);
 }
 
-.members-contain h2,
-p {
+.members-contain h2 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
