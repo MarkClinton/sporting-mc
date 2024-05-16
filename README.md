@@ -57,7 +57,7 @@ The intended audience for this site are football fans. More specifically fans of
 
     <details><summary>Home</summary>
 
-    <p align="center"><img src="documentation/site_images/home.png" alt="drawing" width="600"/></p>
+    <p align="center"><img src="documentation/site_images/home.png" alt="home" width="600"/></p>
 
     </details>
 
@@ -67,7 +67,7 @@ The intended audience for this site are football fans. More specifically fans of
 
     <details><summary>News</summary>
 
-    <p align="center"><img src="documentation/site_images/news.gif" alt="drawing" width="600"/></p>
+    <p align="center"><img src="documentation/site_images/news.gif" alt="news" width="600"/></p>
 
     </details>
 
@@ -77,7 +77,7 @@ The intended audience for this site are football fans. More specifically fans of
 
     <details><summary>Fixtures & Results</summary>
 
-    <p align="center"><img src="documentation/site_images/fixtures_results.png" alt="drawing" width="600"/></p>
+    <p align="center"><img src="documentation/site_images/fixtures_results.png" alt="fixtures & results" width="600"/></p>
 
     </details>
 
@@ -89,7 +89,7 @@ The intended audience for this site are football fans. More specifically fans of
 
     <details><summary>Members</summary>
 
-    <p align="center"><img src="documentation/site_images/members_form.gif" alt="drawing" width="600"/></p>
+    <p align="center"><img src="documentation/site_images/members_form.gif" alt="members form" width="600"/></p>
 
     </details>
 
@@ -99,7 +99,17 @@ The intended audience for this site are football fans. More specifically fans of
 
     <details><summary>Response</summary>
 
-    <p align="center"><img src="documentation/site_images/response.png" alt="drawing" width="600"/></p>
+    <p align="center"><img src="documentation/site_images/response.png" alt="response" width="600"/></p>
+
+    </details>
+
+- ### Footer
+
+  - The footer is displayed across all pages. It includes 2 icons that link out to both Twitter and YouTube. It also contains a link that return back to the home page. 
+
+    <details><summary>Footer</summary>
+
+    <p align="center"><img src="documentation/site_images/footer.png" alt="footer" width="600"/></p>
 
     </details>
 
