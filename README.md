@@ -227,7 +227,6 @@ To test the responsiveness of my website across all screen sizes I mainly used t
   - [HTML Color Codes](https://htmlcolorcodes.com/color-picker/) for choosing different shades and colors.
   - [EZGif](https://ezgif.com/maker) for creating gifs for the ReadMe
   - [Cloud Convert](https://cloudconvert.com/) for converting images to .webp format.
-  - [Kevin Powell Youtube](https://www.youtube.com/@KevinPowell): Kevin's videos on [Flex-Box](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd) and [CSS Positions](https://www.youtube.com/watch?v=fF_NVrd1s14) were a helpful resource to better understand the topics.
   - [Love Running](https://github.com/MarkClinton/Love-Running-Walkthrough) the Love Running project was a great resource which I used for the Navbar, Footer and Form components on my site. 
 
 
@@ -244,7 +243,8 @@ To test the responsiveness of my website across all screen sizes I mainly used t
 
   - [Stack Overflow Post on Flexbox](https://stackoverflow.com/questions/39644585/using-flex-order-property-to-re-arrange-items-for-desktop-and-mobile-views): This Stack Overflow article helped me with fixing my flexbox issue for my middle article positioning. The intent was to have the article viewable like the one above it when on mobile but when the screen was for desktop that the image be on the left and the article header and content be contained on the right. [Link to code](https://github.com/MarkClinton/sporting-mc/blob/e5fe8238415a538ee9f5f4d5991509932f0bfa3a/news.html#L84).
   - [Stack Overflow Post on Text outline](https://stackoverflow.com/questions/11323813/how-to-outline-text-in-html-css): Because one of my nav items was larger than the others I couldn't assign it an accurate width without messing up the rest of the nav spacing. This would cause a slight movement if I used font-bold on hover. Instead, I used text shadow to achieve some sort of bold text. 
-  - [Stack Overflow Post on styling Radio Buttons](https://stackoverflow.com/questions/37069238/how-to-change-the-font-style-in-radio-button): I wanted a custom style for my radio buttons to fit the theme of the site. Using this Stack Overflow post I was able to do it. 
+  - [Stack Overflow Post on styling Radio Buttons](https://stackoverflow.com/questions/37069238/how-to-change-the-font-style-in-radio-button): I wanted a custom style for my radio buttons to fit the theme of the site. Using this Stack Overflow post I was able to do it.
+  - [Kevin Powell's Youtube](https://www.youtube.com/@KevinPowell): Kevin's videos on [Flex-Box](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd) and [CSS Positions](https://www.youtube.com/watch?v=fF_NVrd1s14) were a helpful resource to better understand the topics. 
 
 - ### Acknowledgments 
   - Big thanks to my mentor Juliia for the help and support throughout this project. She shared some great knowledge and resources which were very valuable for understanding how different components work. 
