@@ -16,9 +16,9 @@ Live site: https://markclinton.github.io/sporting-mc/index.html
 * [Issues](#issues)
 
 ## About
-Sporting M.C. is a website for a fictional football club. The name "Sporting M.C." is a mix of the term "Sporting" which refers to a sporting club and is widely used in naming teams in the Portugese League. As football grows in the USA some clubs are adopting the moniker "Sporting". M.C. are my initials. Putting them both together gave birth to the idea "Sporting M.C.". Sporting M.C. uses the crest and logo of the portugese football team FC Vizela. 
+Sporting M.C. is a website for a fictional football club. The name "Sporting M.C." is a mix of the term "Sporting" which refers to a sporting club and is widely used in naming teams in the Portuguese League. As football grows in the USA some clubs are adopting the moniker "Sporting". M.C. are my initials. Putting them both together gave birth to the idea "Sporting M.C.". Sporting M.C. uses the crest and logo of the portuguese football team FC Vizela. 
 
-The aim of the website is so supporters of the club can keep up to date with club news, view upcoming fixtures and results results of previous matches and allows you to sign up and become a member of the club. The fictional club Sporting M.C. take part in the Primeira Liga, Portugal's top flight division. 
+The aim of the website is so supporters of Sporting M.C. can keep up to date with club news, view upcoming fixtures and results of previous matches and allows you to sign up and become a member of the club. The fictional club Sporting M.C. take part in the Primeira Liga, Portugal's top flight division. 
 
 ## Design
 The website is intended to be colorful in its design and full of content related to the team. 
@@ -27,22 +27,22 @@ The website is intended to be colorful in its design and full of content related
 The two main colors of the site (#000080, #ffc300) provide a complementary color harmony as they directly oppose each other on the RGB color wheel. I also just happen to like both yellow and blue when used together.  
 
 - ### Imagery
-The hero image was chosen as a reflection of all the fans who support the club by showing a packed stadium. The background images were chosen to keep on theme of the site. Football centric imagery. Because the team is based in Portugal and competes in the Primeira Liga, real teams such as Sporting CP, FC Porto appear on the Fixtures & Results page for a sense of realism. 
+The hero image was chosen as a reflection of all the fans who support the club by showing a packed stadium. The background images were chosen to keep the theme of the site. Football centric imagery. Because the team is based in Portugal and competes in the Primeira Liga, real teams such as Sporting CP, FC Porto appear on the Fixtures & Results page for a sense of realism. 
 
 - ### Typography 
-Google font was used to pick 2 comnplimentary fonts. Roboto and Rubik are the fonts used. Rubik used for H elements. Roboto used for P elements.
+Google font was used to pick 2 complimentary fonts. Roboto and Rubik are the fonts used. Rubik used for H elements. Roboto used for P elements.
 
 - ### Wireframes
 The site was initially designed using Balsamiq. [Link to the Wireframes PDF](documentation/wireframes/Portfolio%201%20Wireframes.pdf)
 
 ## Target Audience
-The intended audience for this site are football fans. More specifically fans of Sporting M.C. Visitors to the site will want to know whats happening with the club, latest news, latest results, upcoming fixtures. The intent is to have everything available to fans that they need to keep up to date with the club. 
+The intended audience for this site are football fans. More specifically fans of Sporting M.C. Visitors to the site will want to know what's happening with the club, latest news, latest results, upcoming fixtures. The intent is to have everything available to fans that they need to keep up to date with the club. 
 
 ## Features
 
 - ### Nav Bar
 
-  - Fully responsive navigation bar design featured on all pages throughout the site. Allows users to eaily navigate throughout the site regardless of screen size.
+  - Fully responsive navigation bar design featured on all pages throughout the site. Allows users to easily navigate throughout the site regardless of screen size.
 
     <details><summary>Navbar</summary>
 
@@ -52,7 +52,7 @@ The intended audience for this site are football fans. More specifically fans of
 
 - ### Home Page
 
-  - The Hero section features the crest of the club and a call to action button which allows them to nivigate through teh site faster to see the content they want.
+  - The Hero section features the crest of the club and a call to action button which allows them to navigate through the site faster to see the content they want.
   - The landing page contains the main hero image which clearly shows the intent of the site. It also includes some easily digestible media in the form of short, snappy articles and an embedded youtube video. 
 
     <details><summary>Home</summary>
@@ -85,7 +85,7 @@ The intended audience for this site are football fans. More specifically fans of
 
   - Interactive Membership form to allow users to sign up and become a member. 
   - Only accepts valid emails.
-  - Includes fields for First Name, Last Name, Email and a choice of Individula or Family Membership.
+  - Includes fields for First Name, Last Name, Email and a choice of Individual or Family Membership.
 
     <details><summary>Members</summary>
 
@@ -126,7 +126,7 @@ The intended audience for this site are football fans. More specifically fans of
   - In the repository, navigate to Settings > Pages.
   - From the Source dropdown choose "Deploy from a branch".
   - Choose "main" as the branch.
-  - When the master branch is selected the it will initiate a build and deployment of the site.
+  - When the master branch is selected it will initiate a build and deployment of the site.
   - Any changes pushed to the main branch will automatically be built and deployed once set up.
   - Link to live GitHub Page can be found [here](https://markclinton.github.io/sporting-mc/index.html)
 
@@ -175,7 +175,7 @@ To test the responsiveness of my website across all screen sizes I mainly used t
 ||Attempt to submit empty|Error pops up in field that's left empty|
 |Response Page|Click Homepage button|Navigates back to the home page|
 |Social Media Links|Test Youtube link|Youtube opens in a separate tab|
-||Test Twitter(X) Link|Twitter(X) opens in a seperate tab|
+||Test Twitter(X) Link|Twitter(X) opens in a separate tab|
 |Footer Link|Test Footer link|Footer link directs back the Home page|
 |2024 Season Membership Link|Test 2024 Season Membership link|Link directs to the Members page|
 
@@ -201,16 +201,16 @@ To test the responsiveness of my website across all screen sizes I mainly used t
 - ### Media
 
   - [Unsplash](https://unsplash.com/) for free to use images.
-  - [Football Web Pages](https://www.footballwebpages.co.uk/portuguese-primeira-liga/teams) for images of team crests in the Portugese League.
+  - [Football Web Pages](https://www.footballwebpages.co.uk/portuguese-primeira-liga/teams) for images of team crests in the Portuguese League.
   - [FC Vizela](https://fcvizela.pt/) for player headshots. 
-  - [Logowik](https://logowik.com/fc-vizela-vector-logo-8490.html) for main image of football crest.
+  - [Logowik](https://logowik.com/fc-vizela-vector-logo-8490.html) for the main image of crest.
   - [FC Porto](https://www.fcporto.pt/en/news) for inspiration on football news articles.
   - [Premier League](https://www.premierleague.com/matchweek/12305/blog) for inspiration on design, layout and content. 
 
 - ### Helpful Links
 
   - [Stack Overflow Post on Flexbox](https://stackoverflow.com/questions/39644585/using-flex-order-property-to-re-arrange-items-for-desktop-and-mobile-views): This Stack Overflow article helped me with fixing my flexbox issue for my middle article positioning. The intent was to have the article viewable like the one above it when on mobile but when the screen was for desktop that the image be on the left and the article header and content be contained on the right. [Link to code](https://github.com/MarkClinton/sporting-mc/blob/e5fe8238415a538ee9f5f4d5991509932f0bfa3a/news.html#L84).
-  - [Stack Overflow Post on Text outline](https://stackoverflow.com/questions/11323813/how-to-outline-text-in-html-css): Because one of my nav items was larger than the others I couldnt assign it an accurate width without messing up the rest of the nav spacing. This would cause a slight movement if I used font-bold on hover. Instead, I used text shadow to acheive some sort of bold text. 
+  - [Stack Overflow Post on Text outline](https://stackoverflow.com/questions/11323813/how-to-outline-text-in-html-css): Because one of my nav items was larger than the others I couldn't assign it an accurate width without messing up the rest of the nav spacing. This would cause a slight movement if I used font-bold on hover. Instead, I used text shadow to achieve some sort of bold text. 
   - [Stack Overflow Post on styling Radio Buttons](https://stackoverflow.com/questions/37069238/how-to-change-the-font-style-in-radio-button): I wanted a custom style for my radio buttons to fit the theme of the site. Using this Stack Overflow post I was able to do it. 
 
 - ### Acknowledgments 
@@ -218,9 +218,9 @@ To test the responsiveness of my website across all screen sizes I mainly used t
 
 ## Bugs
 - The GitHub repository contained a file called .DS_Store during the development. This file should
-not have been commited to the repository. I manually deleted the file from the repo directly as it was
+not have been committed to the repository. I manually deleted the file from the repo directly as it was
 not appearing locally. I then added it to my .gitignore file to stop future pushes of this file.
-- I wanted to implement Navbar links to be bold on hover. If I set the items to be bold on hover it would slightly move the items in the navbar. Due to the width of the "Fixtures & Results" nav item I couldnt find a width to satisfy all navbar items. This would lead to wasted space making the other navbar items look odd. In the end I used a text shadow to give the illusion of bold text when hovered. 
-- Pre planning my site. I created the initial wireframes for this website but should have included more detail. More detail in the actual div elements I planned to create. Without having these divs created in a wireframe it lead to wasted time back and forth debating on which styles looks good.
-- ReadMe. While the ReadMe wasnt an issue I only kept a running log in a seperate file on my desktop instead of creating the ReadMe as I went. I should have started with the ReadMe format and filled it in as each page was created. 
-- Due to the fact the website is for a fictional football team I couldnt get any highlights for the team to include on the home page. Instead, I added a video of the 2006 Nike advert "Joga Bonito".
+- I wanted to implement Navbar links to be bold on hover. If I set the items to be bold on hover it would slightly move the items in the navbar. Due to the width of the "Fixtures & Results" nav item I couldn't find a width to satisfy all navbar items. This would lead to wasted space making the other navbar items look odd. In the end I used a text shadow to give the illusion of bold text when hovered. 
+- Pre-planning my site. I created the initial wireframes for this website but should have included more detail. More detail in the actual div elements I planned to create. Without having these divs created in a wireframe it lead to wasted time back and forth debating on which styles looks good.
+- ReadMe. While the ReadMe wasn't an issue I only kept a running log in a separate file on my desktop instead of creating the ReadMe as I went. I should have started with the ReadMe format and filled it in as each page was created. 
+- Due to the fact the website is for a fictional football team I couldn't get any highlights for the team to include on the home page. Instead, I added a video of the 2006 Nike advert "Joga Bonito".
