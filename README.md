@@ -123,6 +123,17 @@ The intended audience for this site are football fans. More specifically fans of
 
     </details>
 
+### Future Features
+
+- #### League table feature
+  - It would have been nice to create a new page called Standings which would display the league table. Similar to the Fixtures & Results page.
+
+- #### Tickets page
+  - A ticket page where club members can purchase tickets to matches. 
+
+- #### Merch page
+  - A merch page which displays club memorabilia like hats, scarfs and replica shirts for sale. 
+
 ## Technologies
 
 ### Languages
