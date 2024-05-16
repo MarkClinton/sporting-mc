@@ -61,6 +61,16 @@ The intended audience for this site are football fans. More specifically fans of
 
     </details>
 
+- ### Banner
+
+  - On the home page there is a banner highlighting that 2024 membership is available with a link to the members page. 
+
+    <details><summary>Banner</summary>
+
+    <p align="center"><img src="documentation/site_images/banner.png" alt="banner" width="600"/></p>
+
+    </details>
+
 - ### News
 
   - The News page is fully responsive allowing the user to comfortably read articles regardless of the device they are using. 
