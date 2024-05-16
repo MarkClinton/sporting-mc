@@ -195,7 +195,9 @@ To test the responsiveness of my website across all screen sizes I mainly used t
   - [W3 Schools](https://www.w3schools.com/) for documentation and interactive help with html and css.
   - [HTML Color Codes](https://htmlcolorcodes.com/color-picker/) for choosing different shades and colors.
   - [EZGif](https://ezgif.com/maker) for creating gifs for the ReadMe
-  - [Cloud Convert](https://cloudconvert.com/) for converting images to .webp format
+  - [Cloud Convert](https://cloudconvert.com/) for converting images to .webp format.
+  - [Kevin Powell Youtube](https://www.youtube.com/@KevinPowell): Kevin's videos on [Flex-Box](https://www.youtube.com/watch?v=hwbqquXww-U&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd) and [CSS Positions](https://www.youtube.com/watch?v=fF_NVrd1s14) were a helpful resource to better understand the topics.
+  - [Love Running](https://github.com/MarkClinton/Love-Running-Walkthrough) the Love Running project was a great resource which I used for the Navbar, Footer and Form components on my site. 
 
 
 - ### Media
