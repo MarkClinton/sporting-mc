@@ -44,7 +44,7 @@ The intended audience for this site are football fans. More specifically fans of
 
   - Fully responsive navigation bar design featured on all pages throughout the site. Allows users to easily navigate throughout the site regardless of screen size.
 
-    <details><summary>Navbar</summary>
+    <details><summary>Navbar</summary> 
 
     <p align="center"><img src="documentation/site_images/navbar.gif" alt="drawing" width="600"/></p>
 
