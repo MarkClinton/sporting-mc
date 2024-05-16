@@ -163,21 +163,21 @@ To test the responsiveness of my website across all screen sizes I mainly used t
 
 - ### Manual Testing 
 
-|  Feature |  Action | Effect |
-|---|---|---|
-|Logo|Click|Brings back to Home page|
-|Call to action button|Click|Navigates to the News page|
-|Navbar Links|Click on Home|Opens the Home page|
-||Click on News|Opens the News page|
-||Click on Fixtures & Results|Opens the Fixtures & Results page|
-||Click on Members|Opens the Members page|
-|Members Page|Fill out the form and submit|The form is submitted and a Thank you message appears|
-||Attempt to submit empty|Error pops up in field that's left empty|
-|Response Page|Click Homepage button|Navigates back to the home page|
-|Social Media Links|Test Youtube link|Youtube opens in a separate tab|
-||Test Twitter(X) Link|Twitter(X) opens in a separate tab|
-|Footer Link|Test Footer link|Footer link directs back the Home page|
-|2024 Season Membership Link|Test 2024 Season Membership link|Link directs to the Members page|
+|  Feature |  Action | Effect | Pass/Fail |
+|---|---|---|---|
+|Logo|Click|Brings back to Home page| Pass |
+|Call to action button|Click|Navigates to the News page| Pass |
+|Navbar Links|Click on Home|Opens the Home page| Pass |
+||Click on News|Opens the News page| Pass |
+||Click on Fixtures & Results|Opens the Fixtures & Results page| Pass |
+||Click on Members|Opens the Members page| Pass |
+|Members Page|Fill out the form and submit|The form is submitted and a Thank you message appears| Pass |
+||Attempt to submit empty|Error pops up in field that's left empty| Pass |
+|Response Page|Click Homepage button|Navigates back to the home page| Pass |
+|Social Media Links|Test Youtube link|Youtube opens in a separate tab| Pass |
+||Test Twitter(X) Link|Twitter(X) opens in a separate tab| Pass |
+|Footer Link|Test Footer link|Footer link directs back the Home page| Pass |
+|2024 Season Membership Link|Test 2024 Season Membership link|Link directs to the Members page| Pass |
 
 
 - ### Compatibility Testing
